@@ -587,7 +587,7 @@ if (!isset($_SESSION['username'])) {
 
 								<?php
 
-$con = mysqli_connect('localhost', 'root');
+$con = mysqli_connect('54.153.243.37', 'root', 'root');
 if (!$con) {
     die('connection failed' . mysqli_connect_error());
 }
